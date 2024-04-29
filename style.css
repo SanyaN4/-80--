@@ -1,0 +1,51 @@
+nav {
+    background-color: yellow;
+}
+
+nav a {
+    justify-content: space-between;
+    text-decoration: none;
+    color: yellow;
+    border-radius: 20px;
+    border: 2px solid yellow;
+    background-color: red;
+    font-size: 20px;
+    margin: 18px;
+}
+
+nav a:hover {
+    transition: 0.3s linear;
+    color: blue;
+    background-color: white;
+}
+
+body {
+    background-color: grey;
+}
+
+header {
+    background-color: orange;
+}
+
+main {
+    background-image: linear-gradient(blue, yellow, grey, red);
+}
+
+footer {
+    font-size: 30px;
+}
+
+.name {
+    border-top: 3px solid black;
+    font-size: 50px;
+}
+
+.info {
+    font-size: 20px;
+}
+
+.start {
+    font-size: 20px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
